@@ -3,7 +3,7 @@ import {LoginPage} from '../pages/login'
 
 test('test POM Demo', async ({ page }) => {
 
-  const Login = new LoginPage(page)
+  const Login = new LoginPage(page) //calling LoginPage class
 
   await Login.gotoLoginPage()
   await Login.login('tomsmith','SuperSecretPassword!')

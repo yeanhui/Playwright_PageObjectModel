@@ -1,3 +1,5 @@
+//Create LoginPage class
+
 exports.LoginPage = class LoginPage {
 
     constructor(page) {
